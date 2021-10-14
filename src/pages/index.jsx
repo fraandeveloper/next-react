@@ -1,4 +1,5 @@
 import Navigation from '../components/Navigation';
+import Codigo from '../pages/cliente/codigo';
 
 import Link from 'next/link'
 
@@ -13,6 +14,8 @@ export default function App() {
       <p>{ a + b }</p>
 
       <Navigation path="/estilo" title="Rota" />
+      <Navigation path="/cliente/123" title="Cliente" />
+      <Codigo />
     </div>
   )
 }
