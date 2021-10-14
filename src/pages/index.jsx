@@ -1,3 +1,5 @@
+import Navigation from '../components/Navigation';
+
 import Link from 'next/link'
 
 export default function App() {
@@ -9,6 +11,8 @@ export default function App() {
       <Link href="/estilo">Rota estiloso</Link>
       { header }
       <p>{ a + b }</p>
+
+      <Navigation path="/estilo" title="Rota" />
     </div>
   )
 }
